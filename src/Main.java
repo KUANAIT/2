@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-        int factorial = 1;
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int f = 1;
         for(int i = 1; i <= num; ++i) {
-            factorial *= i;
+            f *= i;
         }
-        System.out.printf(String.valueOf(factorial));
+        System.out.printf(String.valueOf(f));
     }
 }
